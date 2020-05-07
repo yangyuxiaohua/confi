@@ -63,14 +63,6 @@ export default {
     };
   },
   created() {
-    // 监听登录enter键
-    // var _self = this;
-    // document.onkeydown = function() {
-    //   var key = window.event.keyCode;
-    //   if (key == 13 || key == 100) {
-    //     _self.submitForm();
-    //   }
-    // };
   },
   methods: {
     //  切换眼睛开和闭
