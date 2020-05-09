@@ -7,6 +7,7 @@
     <div id="canvasWrapper">
       <div id="imgCanvas" @mousewheel="theZoom($event)">
         <canvas id="canvasImg" :width="cw" :height="ch" @mousedown="clickCanvas($event)"></canvas>
+        <!-- <canvas id="newCanvas" :width="cw" :height="ch" @mousedown="clickNewCanvas($event)"></canvas> -->
         <!-- <div id="equipImgBox">
 
             </div> -->
